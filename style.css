@@ -138,16 +138,16 @@ p {
         font-size: 30px;
         position: relative;
         left: 19px;
-    } 
+    }
 
-    .button-main{
+    .button-main {
         position: relative;
         top: 17px;
     }
+}
 
-    @media screen and (max-width:320px) { 
-        
-        
+@media screen and (max-width:376px) {
+    .box {
+        margin-top: 130px;
     }
-
 }
