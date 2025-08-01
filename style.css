@@ -121,7 +121,8 @@ p {
     .box {
         position: fixed;
         height: 50%;
-        top: 50%;
+        top: 430px;
+        ;
         margin: 40px 64px;
         width: 263px;
         height: 52px;
@@ -147,7 +148,32 @@ p {
 }
 
 @media screen and (max-width:376px) {
-    .box {
-        margin-top: 130px;
+
+    .logo-image{    top: 50px;
     }
+
+    .box {
+                 top: 360px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .logo-image {
+        top: 50px;
+        width: 295px;
+        height: 275px;
+        position: fixed;
+        margin-left: 14px;
+    }
+
+    .box {
+        position: fixed;
+        height: 50%;
+        bottom: 110px;
+        top: 295px;
+        margin: 50px 30px;
+        width: 263px;
+        height: 52px;
+    }
+
 }
