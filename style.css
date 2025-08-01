@@ -115,14 +115,16 @@ p {
         width: 354px;
         height: 317px;
         position: fixed;
-        margin-left: 14px;
+        margin-left: 30px;
+         top: 90px;
+
     }
 
     .box {
         position: fixed;
         height: 50%;
         top: 430px;
-        ;
+        left: 25px;
         margin: 40px 64px;
         width: 263px;
         height: 52px;
@@ -153,7 +155,7 @@ p {
     }
 
     .box {
-                 top: 360px;
+          top: 360px;
     }
 }
 
